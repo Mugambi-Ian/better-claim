@@ -12,6 +12,7 @@ import Splash from './splash/splash';
 import {Snackbar} from 'react-native-paper';
 import {_auth} from '../assets/config/index';
 import Login from './login/login';
+import Home from './app/app';
 
 export default class App extends Component {
   state = {
@@ -77,7 +78,7 @@ export default class App extends Component {
             openTimedSnack={this.openTimedSnack.bind(this)}
           />
         ) : (
-          <View
+          <Home
             init={() => {
               this.setState({bypassAuth: true});
             }}

@@ -8,7 +8,7 @@
 
 import React, {Component} from 'react';
 import * as Animatable from 'react-native-animatable';
-import {fadeIn, slideOutLeft, slideOutRight} from '../../assets/anim/index';
+import {fadeIn, slideOutRight} from '../../assets/anim/index';
 import {
   Alert,
   BackHandler,
